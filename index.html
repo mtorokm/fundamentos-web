@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
-</head>
+    <link rel="stylesheet" href="Assets/CSS/style.css">
+
 <body>
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html">Home</a>
         </li>
@@ -14,28 +15,69 @@
              <a href="contato.html">Contato</a>
         </li>
     </ul>
-    <h1>Sobre o Matheus Trindade Torok</h1>
-    
-    <p>
-        Olá, esse ai na foto abaixo sou eu com uns 10 anos,<br> nessa
-        época eu sofria bastante de dores renais<br> devido a um problema
-        de saúde, passei minha<br>infância inteira dentro de hospitas, graças a Deus<br>
-        mais tarde esse problema foi resolvido por meio<br> de uma cirurgia,
-        a recuperação foi meio chata,<br> mas fiquei bem :).
-    </p>
-    
-    <img src="Assets/img/eu pequeno.jpg" alt="foto do criador do conteudo">
+    <h1 class="center">Sobre o Matheus Trindade Torok</h1>
+    <div class="container">
+        <div>
+            <img class="br-50 wh-300 p-30" src="Assets/img/eu pequeno.jpg" alt="foto do criador do conteudo">
+        </div>
 
-    <h2>O desenho que eu mais assistia:</h2>
+        <div class="p-30">
+            <p class="justify">
+                Olá, esse ai na foto abaixo sou eu com uns 10 anos,nessa
+                época eu sofria bastante de dores renais devido a um problema
+                de saúde, passei minha infância inteira dentro de hospitas, graças a Deus<br>
+                mais tarde esse problema foi resolvido por meio de uma cirurgia,
+                a recuperação foi meio chata, mas fiquei bem :).
+            </p>
+            <p class="justify">
+                Atualmente estou estudando programação na Generation Brasil, estou muito contente
+                pois além da ótima qualidade de conteúdo e professores eu sinto que estou me encontrando
+                nesta área, já quero encontrar oportunidades de trabalho para eu desenvolver ainda mais minhas 
+                técnicas de programação, melhorar minhas habilidades dentro de um ambiente corporativo e expandir
+                meu conhecimento sobre tecnologia
+            </p>
+        </div>
+        
+        
 
-    <iframe width="560"
-     height="315"
-    src="https://www.youtube.com/embed/ixbP1dEeTpg"
-    frameborder="2" 
-    allow="accelerometer; autoplay; clipboard-write;
-     encrypted-media;gyroscope; picture-in-picture"
-    allowfullscreen>
+    </div>
+    
+    
+    
+    <h2 class="center">O desenho que eu mais assistia:</h2>
+
+    <div class="container mb-50">
+        <iframe width="560"
+         height="315"
+         src="https://www.youtube.com/embed/ixbP1dEeTpg"
+         frameborder="2" 
+         allow="accelerometer; autoplay; clipboard-write;
+         encrypted-media;gyroscope; picture-in-picture"
+         allowfullscreen>
     </iframe>
+    </div>
+
+    <hr>
+    <footer>
+        <div class="container">
+            <a href="https://www.facebook.com/matheus.trindadetorok" target="_blank">
+                 <img class="tm-social p-30" src="assets/img/facebook.png" alt="Logo do facebook">     
+            </a>
+            <a href="https://www.instagram.com/mtoorok/?hl=pt-br " target="_blank">
+                <img class="tm-social p-30" src="assets/img/instagram.png" alt="Logo do instagram">
+            </a>
+            <a href="https://www.linkedin.com/in/matheus-trindade-torok-2917751b7/" target="_blank">
+                <img class="tm-social p-30" src="assets/img/linkedin.png" alt="Logo do linkedin">
+            </a>
+
+        </div>
+
+
+        <p class="center">
+        Todos os direitos reservados Matheus Torok &copy
+        </p>
+    </footer>
+
 
 </body>
 </html>
